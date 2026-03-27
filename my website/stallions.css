@@ -1,0 +1,224 @@
+body{
+    background-color: rgb(0, 0, 0);
+    
+}
+.nav{
+    background-color: rgb(222, 39, 182);
+    top: 0px;
+    height: auto;
+    width: 100%;
+    padding: 0.2rem;
+    text-align: center;
+    position: fixed;
+    z-index: 1000;
+    
+}
+
+
+
+.nav li{
+    display: inline-block;
+    margin-right: 80px;
+    
+}
+.nav li a{
+    text-decoration: none;
+    color: rgb(13, 8, 8);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 17px;
+    
+}
+.nav a:hover{
+   background: linear-gradient(red,blue,magenta,yellow); 
+}
+#div1{
+    background:linear-gradient(rgb(0, 0, 0),rgb(0, 0, 0));
+    color: aqua;
+    height: 800px;
+    width: auto;
+    flex-shrink: 1;
+    border-radius: 80px;
+    border-color: aquamarine;
+    padding-top: 80px;
+    text-align: right;
+}
+#div11{
+    height: 100px;
+    text-align: center;
+    font-size: 40px;
+    
+}
+
+
+#image1{
+    height: 680px;
+flex-shrink: 0;   
+ border-radius: 80px;
+    width: 1000px;
+    margin-left: 200px;
+    
+    animation: image1;
+    animation-duration: 10s;
+    animation-iteration-count: 2;
+    animation-timing-function: linear;
+    animation-delay: 1s;
+    animation-name: zoomin;
+}
+@keyframes image1{
+    from{margin-left: 1400px;}
+    to{margin-left: zoomIn;}
+    100%{opacity: 10%;}
+    10%{animate: zoomIn;}
+}
+
+button{
+ background-color: rgb(218, 38, 38);
+ color: greenyellow;
+ border-radius: 70px;
+ size: 90px;
+}
+button:hover{
+    background-color: rgb(0, 0, 0);
+    color: aqua;
+    
+}
+#div2{
+    background-color: rgb(21, 9, 9);
+    color: greenyellow;
+    height: auto;
+    width: auto;
+    border-radius: 80px;
+    margin-right: 50px;
+    font-size: large;
+
+}
+img{
+    float: left;
+    height: 400px;
+    width: 280px;
+    margin-right: 50px;
+    border-radius: 70px;
+    
+}
+h1{
+    text-align: center;
+    color: magenta;
+}
+h2{
+    color: blue;
+}
+#dev4{
+   background-color: rgb(75, 41, 107);
+   color: aquamarine;
+   height: auto;
+   width: auto;
+   border-radius: 0px;
+   font-size: large;
+
+
+}
+video{
+    height: 50px;
+    width: 250px;
+}
+#img1{
+    height:400px;
+    width: 250px;
+    border-radius: 80px;
+}
+#ida{
+    text-align: center;
+    width: auto;
+    height: auto;
+    background-color: rgb(0, 0, 0);
+}
+#idb{
+    display: flex;
+    background-color: rgb(0, 0, 0);
+    border-radius: 50px;
+   animation: myanimation;
+    animation-duration: 20s;
+    animation-iteration-count: 2;
+}
+@keyframes myanimation{
+    from{margin-left: 700px;}
+
+
+}
+#idc{
+    border-radius: 50px;
+    width: 300px;
+    margin-left: 30px;
+    color: rgb(250, 251, 255);
+}
+@media (max-width: 768px)
+{
+    #image1{
+        height: 500px;
+        width: auto;
+        margin-top: 100px;
+        margin-left: 70px;
+        animation: image1;
+        animation-duration: 4s;
+        animation-iteration-count: 2;
+        animation-delay: 1s;
+        animation-timing-function: linear;
+    }
+    @keyframes image1{
+       from{margin-left: 600px;}
+       0%{rotate: 10deg;}
+       0%{opacity: 20%;}
+
+       
+    }
+    img{
+        margin-right: 8px;
+    }
+    #div2{
+        margin-right: 0px;
+        font-size: 16px;
+        
+    }
+    #idb{
+        margin-left: 0px;
+        display: flexbox;
+        
+        
+    }
+    #idc{
+        width: 150px;
+        margin-left: 20px;
+        color: magenta;
+        background-color: white;
+    }
+    #img1{
+        height: auto;
+        width: 100px;
+       
+        
+
+    }
+   #contact{
+    
+    
+    margin-left: auto;
+    width: auto;
+    
+}}
+#contact{
+    
+    color: rgb(71, 6, 150);
+    
+    width: auto;
+    background-color: rgb(206, 162, 172);
+    text-align: center;
+
+}
+
+
+
+
+
+
+
+
